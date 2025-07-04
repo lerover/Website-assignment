@@ -316,7 +316,7 @@ nav .mobile-menu{
   }
   
   .dot.active {
-    background-color: #66A7FB;
+    background-color: #f97316;
     color: #fff;
   }
   
@@ -343,6 +343,7 @@ nav .mobile-menu{
     text-align: center;
     position: relative;
     overflow: hidden;
+    margin: auto;
 
     border: 1px solid #ddd;
   }
@@ -458,7 +459,7 @@ footer {
     }
 
     .hero{
-        margin-top: 0px;
+        margin-top: 50px;
     }
 
     .hero-content{
@@ -535,4 +536,26 @@ footer {
       }
 }
 
-@media (min-width: 1536px) { /* 2xl */ }    
+@media (min-width: 2336px) { 
+    /* 2xl */
+    nav{
+        padding: 10px 500px;
+    }
+
+    .hero{
+        margin: 100px 500px;
+    }
+
+    .features .card-container{
+        grid-template-columns: repeat(6,1fr);
+    }
+
+    .carousel-spacing{
+        margin: 100px 500px;
+    }
+
+    .spacing{
+        margin: 100px 500px;
+    }
+
+}    
