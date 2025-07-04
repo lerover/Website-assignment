@@ -153,10 +153,13 @@ nav .mobile-menu{
 /*======================== nav bar styles end here ==================*/
 
 /* hero section styles  */
-
+.hero{
+    margin-top: 50px;
+}
 .hero-content{
     display: flex;
     flex-direction: column;
+
 }
 
 .hero-content img{
@@ -452,6 +455,10 @@ footer {
 
      .features .card-container{
         grid-template-columns: repeat(2,1fr);
+    }
+
+    .hero{
+        margin-top: 0px;
     }
 
     .hero-content{
